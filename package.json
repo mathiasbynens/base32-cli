@@ -1,0 +1,41 @@
+{
+  "name": "base32-cli",
+  "version": "0.0.0",
+  "description": "A CLI for Crockford’s version of Base32.",
+  "homepage": "https://github.com/mathiasbynens/base32-cli",
+  "bin": {
+    "base32": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "LICENSE-MIT.txt",
+    "cli.js"
+  ],
+  "keywords": [
+    "base32",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathiasbynens/base32-cli.git"
+  },
+  "bugs": "https://github.com/mathiasbynens/base32-cli/issues",
+  "dependencies": {
+    "base32": "^0.0.6",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
