@@ -31,7 +31,7 @@ if (cli.flags.decode) {
 }
 
 if (cli.input.length == 0) {
-	console.error('Please supply some strings to be matched.');
+	console.error('Please supply an input string.');
 	process.exit(1);
 }
 
