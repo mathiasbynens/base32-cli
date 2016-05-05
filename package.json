@@ -1,6 +1,6 @@
 {
   "name": "base32-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A CLI for Crockford’s version of Base32.",
   "homepage": "https://github.com/mathiasbynens/base32-cli",
   "bin": {
